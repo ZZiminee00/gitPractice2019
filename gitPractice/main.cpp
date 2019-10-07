@@ -8,4 +8,10 @@ int main() {
 	if (oper == '/') {
 		cout << n1 / n2 << endl;
 	}
+	if (oper == '-') {
+		cout << n1 - n2 << "\n";
+	}
+	if (oper == '*') {
+		cout << n1 * n2 << "\n";
+	}
 }
