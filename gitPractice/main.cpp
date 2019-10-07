@@ -6,6 +6,14 @@ int main() {
 	char oper;
 	cin >> n1 >> n2 >> oper;
 	if (oper == '/') {
-		cout << n1 / n2 << endl;
+		if (n2 != 0) {
+			cout << n1 / n2 << endl;
+		}
+		else {
+			cout << "Error!" << endl;
+		}
+	}
+	else if (oper == '+') {
+		cout << n1 + n2 << endl;
 	}
 }
